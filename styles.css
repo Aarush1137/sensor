@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+#alerts {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 8px;
+}
+
+.alert {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.alert:last-child {
+    border-bottom: none;
+}
+
+.alert h2 {
+    margin: 0 0 10px;
+    color: #d9534f;
+}
+
+.alert p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.alert a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.alert a:hover {
+    text-decoration: underline;
+}
+
+.helpline {
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.emergency-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px; /* Space above buttons */
+}
+
+.emergency-buttons button {
+    padding: 10px;
+    font-size: larger;
+}
+
+#hospitals {
+    max-width: 600px;
+    margin: 20px auto;
+}
